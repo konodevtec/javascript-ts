@@ -11,8 +11,8 @@ const nome = 'João'
 console.log(nome)
 
 // + - * / 
-const primeiroNumero = 5 //Number
-const segundoNumero = 10
+const primeiroNumero = '5' //String
+const segundoNumero = 10 //Number
 const res = primeiroNumero * segundoNumero
 const resDuplicado = res * 2
 let resTriplicado = res * 3
@@ -22,5 +22,5 @@ console.log(res)
 console.log(resDuplicado)
 console.log(resTriplicado)
 
-console.log(typeof(primeiroNumero))
+console.log(typeof(primeiroNumero + segundoNumero))
 
